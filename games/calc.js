@@ -1,17 +1,16 @@
-import * as utils from './index.js';
+import * as utils from '../src/index.js';
 
 const generateExpression = () => {
   const firstOperand = utils.getRandomNumber(100);
   const secondOperand = utils.getRandomNumber(100);
 
   const operands = ['+', '-', '*'];
-
   const index = utils.getRandomNumber(3);
-
   const operand = operands[index];
 
-  let correctAnswer;
   const expression = `${firstOperand} ${operand} ${secondOperand}`;
+
+  let correctAnswer;
   switch (operand) {
     case operands[0]:
       correctAnswer = utils.sum(firstOperand, secondOperand);
@@ -31,7 +30,7 @@ const generateExpression = () => {
 
 export default function brainCalc() {
   const userName = utils.getUserName();
-  const maxCount = 3;
+  const maxCount = utils.maxRound;
 
   let count = 0;
   while (count < maxCount) {

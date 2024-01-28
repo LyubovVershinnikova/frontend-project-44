@@ -45,3 +45,5 @@ export function goodbye(userAnswer, correctAnswer, userName) {
 export function congrats(userName) {
   console.log(`Congratulations, ${userName}!`);
 }
+
+export const maxRound = 3;
