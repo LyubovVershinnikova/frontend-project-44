@@ -14,7 +14,7 @@ export default function evenGame() {
     const correctAnswer = isEven(number);
 
     if (userAnswer === correctAnswer) {
-      count = utils.correctAnswer();
+      count = utils.updateCount(count);
     } else {
       utils.goodbye(userAnswer, correctAnswer, userName);
       return;
