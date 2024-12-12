@@ -32,6 +32,8 @@ export default function brainCalc() {
   const userName = utils.getUserName();
   const maxCount = utils.maxRound;
 
+  console.log('What is the result of the expression?');
+
   let count = 0;
   while (count < maxCount) {
     const [expression, correctAnswer] = generateExpression();

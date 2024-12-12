@@ -4,6 +4,8 @@ export default function brainGCD() {
   const userName = utils.getUserName();
   const maxCount = utils.maxRound;
 
+  console.log('Find the greatest common divisor of given numbers.');
+
   let count = 0;
 
   while (count < maxCount) {

@@ -3,6 +3,6 @@
 
 <a href="https://codeclimate.com/github/LyubovVershinnikova/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/f86e5620aece47b7ae33/maintainability" /></a>
 
-[![asciicast brain-even](https://asciinema.org/a/Hx24RxhzRqfwZEREBHHMinXnX.svg)](https://asciinema.org/a/Hx24RxhzRqfwZEREBHHMinXnX)
-[![asciicast brain-calc](https://asciinema.org/a/yA2QBx2Cz9983wZIxlgAixdFY.svg)](https://asciinema.org/a/yA2QBx2Cz9983wZIxlgAixdFY)
-[![asciicast brain-gcd](https://asciinema.org/a/DDOZ3vnl5AzAWldei9lLS52IS.svg)](https://asciinema.org/a/DDOZ3vnl5AzAWldei9lLS52IS)
+[![asciicast brain-even](https://asciinema.org/a/Q3vU88hhpMqHMuCGn1RfwDuNg.svg)](https://asciinema.org/a/Q3vU88hhpMqHMuCGn1RfwDuNg)
+[![asciicast brain-calc](https://asciinema.org/a/eemIsAZF1r7Z2Lf6CxUKgqu0g.svg)](https://asciinema.org/a/eemIsAZF1r7Z2Lf6CxUKgqu0g)
+[![asciicast brain-gcd](https://asciinema.org/a/APA5Hy6zL0GgGWImzA1iXBodE.svg)](https://asciinema.org/a/APA5Hy6zL0GgGWImzA1iXBodE)
