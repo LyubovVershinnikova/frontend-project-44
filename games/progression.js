@@ -11,14 +11,13 @@ const generateProgression = () => {
   let nextNumber = firstNumber;
   let correctAnswer = null;
 
-  for (let i = 0; i < length; i++) {
+  for (let i = 0; i < length; i += 1) {
     if (index === i) {
       result.push('..');
       correctAnswer = nextNumber;
-      nextNumber += addition;
-      continue;
+    } else {
+      result.push(nextNumber);
     }
-    result.push(nextNumber);
     nextNumber += addition;
   }
 

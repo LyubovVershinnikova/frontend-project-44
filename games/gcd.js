@@ -1,5 +1,15 @@
 import * as utils from '../src/index.js';
 
+const NOD = (x, y) => {
+  if (y > x) {
+    return NOD(y, x);
+  }
+  if (!y) {
+    return x;
+  }
+  return NOD(y, x % y);
+};
+
 export default function brainGCD() {
   const userName = utils.getUserName();
   const maxCount = utils.maxRound;
@@ -24,15 +34,5 @@ export default function brainGCD() {
     if (count === maxCount) {
       utils.congrats(userName);
     }
-  }
-
-  function NOD(x, y) {
-    if (y > x) {
-      return NOD(y, x);
-    }
-    if (!y) {
-      return x;
-    }
-    return NOD(y, x % y);
   }
 }
